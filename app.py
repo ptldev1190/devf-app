@@ -8,7 +8,7 @@ app = Nav()
 # Add all your application here
 app.add_app("Dashboard", dashboard.app)
 app.add_app("Watchlist", watchlist.app)
-app.add_app("Telegram", telegram.app)
+# app.add_app("Telegram", telegram.app)
 
 # The main app
 app.run()
