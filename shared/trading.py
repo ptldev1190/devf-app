@@ -1,4 +1,6 @@
 import datetime as dt
+import yfinance
+# import pandas as pd
 import config
 from shared import util
 
@@ -26,3 +28,9 @@ class Trading:
             return True
         else:
             return False
+
+    def getRealData():
+        pass
+        # symbols = 'SBIN.NS'
+        # df = yfinance.download(symbols, period='5d', interval='15m')
+        # print(df)
